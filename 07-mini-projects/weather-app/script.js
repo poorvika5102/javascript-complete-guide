@@ -2,7 +2,7 @@ const searchBtn = document.getElementById("searchBtn");
 const cityInput = document.getElementById("cityInput");
 const weatherResult = document.getElementById("weatherResult");
 
-const API_KEY = "YOUR_API_KEY_HERE";
+const API_KEY = "5751dd160b596e224ced3b58dcef9ed8";
 
 async function getWeather(city) {
   try {
