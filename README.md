@@ -19,6 +19,10 @@ production-style applications and UI behavior**.
 - Error handling and best practices
 - Mini projects demonstrating real usage
 
+  ## Live Demo
+https://poorvika5102.github.io/javascript-complete-guide/
+
+
 ## Goal
 To showcase practical, recruiter-friendly JavaScript skills that can be
 easily reviewed and evaluated.
