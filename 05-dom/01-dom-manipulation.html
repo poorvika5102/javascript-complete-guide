@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DOM Manipulation</title>
+</head>
+
+<body>
+  <h1 id="title">JavaScript DOM Example</h1>
+
+  <p id="description">
+    Click the button to change this text.
+  </p>
+
+  <button id="changeButton">Change Text</button>
+
+  <script>
+    // Select elements
+    const title = document.getElementById("title");
+    const description = document.getElementById("description");
+    const button = document.getElementById("changeButton");
+
+    // Event listener
+    button.addEventListener("click", function () {
+      title.textContent = "DOM Updated Successfully";
+      description.textContent = "The text was changed using JavaScript.";
+    });
+  </script>
+</body>
+</html>
